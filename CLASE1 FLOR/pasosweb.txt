@@ -1,0 +1,8 @@
+pasos para armar una web
+boceto o sketch
+wireframe- figma
+prototipo estatico
+prototipo dinamico
+deploy. puesta en produccion
+SI PONEMOS CONTROK Y DESPUES C SE PUEDE PONER COMENTARIOS
+alt z divide a la derecha
