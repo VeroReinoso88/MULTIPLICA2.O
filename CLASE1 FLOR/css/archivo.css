@@ -3,6 +3,14 @@ background-color: aquamarine;
 
 }
 
+.mapa ¨{
+    text-align: center;
+    text-decoration: double;
+    
+
+}
+
+
 h1, h2{
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -16,3 +24,4 @@ h1, h2{
     text-align: center;
     font-style: italic;
 }
+
