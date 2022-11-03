@@ -1,6 +1,41 @@
 body {
-background-color: aquamarine;
+background-color:rgb(9, 105, 76);
+color: white;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.menu {
+    list-style: none
+    backgroud-color: pink
 
+}
+.fotos {
+   display:flex
+   
+    padding: 20px;
+}
+.menu li  {
+    display: inline-block;
+    text-align: center;
+    
+    }
+
+    .menu li a {
+        display: block;
+        padding: 20px;
+        color: white;
+        text-decoration: none;
+    }
+    .menu li a:hover {
+background: palevioletred;
+    }
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    padding: 30;
+    align-items: center;
 }
 
 .mapa ¨{
@@ -22,6 +57,37 @@ h1, h2{
 }
 .poema{
     text-align: center;
-    font-style: italic;
+    font-family: cursive;
 }
+footer {
+    text-align: center;
+    text-decoration: none;
+    font-size: medium;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+.nosotros{
+    text-align: justify;
+ 
+    margin: 90px;
+    border-image-width: 200;
+}
+.formulario {
+    border-style: double;
+    
+}
+.fotonuestra {
+    text-align: center;
 
+}
+.LIBRO {
+    height: 50%;
+    text-decoration: NONE;
+    color: white;
+    text-align: center;
+        }
+  
+ .libro a {
+    text-decoration: none;
+    background-color: aliceblue;
+ }
+   
