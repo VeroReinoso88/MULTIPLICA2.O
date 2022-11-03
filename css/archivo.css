@@ -9,9 +9,10 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
 
 }
 .fotos {
-   display:flex
-   
-    padding: 20px;
+text-align: center;   
+margin: 10px;
+justify-content: space-between;
+padding: 10px;
 }
 .menu li  {
     display: inline-block;
@@ -33,16 +34,16 @@ background: palevioletred;
 header{
     display: flex;
     justify-content: space-between;
-    height: 70px;
-    padding: 30;
+    height: 40px;
+    padding: 10;
     align-items: center;
+    background-color: rgb(44, 209, 146);
 }
 
-.mapa ¨{
+.videoyou {
     text-align: center;
     text-decoration: double;
     
-
 }
 
 
@@ -50,30 +51,27 @@ h1, h2{
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.fotos {
-   
-    margin: auto;
 
-}
 .poema{
     text-align: center;
     font-family: cursive;
+
 }
-footer {
-    text-align: center;
-    text-decoration: none;
-    font-size: medium;
-    font-family:Verdana, Geneva, Tahoma, sans-serif ;
-}
-.nosotros{
+
+.nosotros p {
     text-align: justify;
- 
     margin: 90px;
     border-image-width: 200;
+    font-family: 'Poor Story', cursive;
 }
 .formulario {
     border-style: double;
-    
+    display: inline-block;
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+    background-color: rgba(0, 255, 106, 0.795);
+       
 }
 .fotonuestra {
     text-align: center;
@@ -90,4 +88,27 @@ footer {
     text-decoration: none;
     background-color: aliceblue;
  }
-   
+
+ .viajar {
+    font-family: cursive;
+    border-bottom: 5px solid;
+    border-top: 5px solid;
+    border-left: 5px solid;
+    border-style: groove;
+    display: inline;
+    padding: 10px;
+    text-decoration: none;
+    
+ }
+   .inst{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border-bottom: 5px solid;
+    border-top: 5px solid;
+    border-left: 5px solid;
+    border-style: groove;
+    display:inline-block;
+    padding: 10px;
+       }
+       
