@@ -3,24 +3,32 @@ background-color:rgb(9, 105, 76);
 color: white;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+header{
+    display: flex;
+    justify-content: space-between;
+   
+    height: 40px;
+    padding: 10px 20px;
+    align-items: center;
+    background-color: rgb(44, 209, 146);
+}
+
 .menu {
+    display: flex;
+    gap:25px;
     list-style: none
+    
     backgroud-color: pink
 
 }
-.fotos {
-text-align: center;   
-margin: 10px;
-justify-content: space-between;
-padding: 10px;
-}
 .menu li  {
-    display: inline-block;
-    text-align: center;
+display: inline-block;
+text-align: center;
     
     }
 
-    .menu li a {
+.menu li a {
         display: block;
         padding: 20px;
         color: white;
@@ -29,16 +37,17 @@ padding: 10px;
     .menu li a:hover {
 background: palevioletred;
     }
+.fotos {
+ display: flex;
+ flex-direction: row;
+ flex-wrap: nowrap;
+ justify-content:space-between;   
+ gap: 5px;
 
-
-header{
-    display: flex;
-    justify-content: space-between;
-    height: 40px;
-    padding: 10;
-    align-items: center;
-    background-color: rgb(44, 209, 146);
 }
+
+
+
 
 .videoyou {
     text-align: center;
@@ -58,36 +67,93 @@ h1, h2{
 
 }
 
-.nosotros p {
-    text-align: justify;
-    margin: 90px;
-    border-image-width: 200;
-    font-family: 'Poor Story', cursive;
+.nosotros {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-right: 20px;
+   
 }
+.fotopuente {
+    width: ;90px
+    margin: 30px;
+    padding: 15px;
+
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    }
+
+    .logo{
+        display: flex;
+        justify-content: flex-start;
+        flex-grow: 2;
+        flex-basis: 100;
+    }
+
+
+.presentacion p {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 20px;
+    
+     
+}
+.paginaform{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+background-image: url(../imagenes/ballena.JPG);
+background-size:cover;
+background-position: center;
+backdrop-filter:initial
+    
+    
+    
+}
+
 .formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     border-style: double;
     display: inline-block;
     margin: 15px;
     padding: 15px;
     text-align: center;
-    background-color: rgba(0, 255, 106, 0.795);
+    background-color:rgb(41, 236, 139);
        
 }
-.fotonuestra {
-    text-align: center;
 
-}
 .LIBRO {
+    display: flex;
+    flex-direction: column;
     height: 50%;
     text-decoration: NONE;
     color: white;
     text-align: center;
         }
-  
- .libro a {
+ .fotonico {
+    padding: 30px;
+    margin-left: 100px;
+    width: 1000px;
+    height: 450px;
+        }
+       
+ .contactanoslibro {
+    color: white;
     text-decoration: none;
-    background-color: aliceblue;
- }
+    display: inline-block;
+    background-color: rgb(41, 236, 139);
+    
+            }
+.contactanoslibro :hover
+{    background: palevioletred;
+        }
 
  .viajar {
     font-family: cursive;
@@ -100,6 +166,8 @@ h1, h2{
     text-decoration: none;
     
  }
+
+
    .inst{
     text-align: center;
     text-decoration: none;
