@@ -1,42 +1,59 @@
+* {
+margin: 0;
+padding: 0;
+}
+
 body {
 background-color:rgb(9, 105, 76);
 color: white;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+padding-bottom: 30px;
 }
 
 header{
     display: flex;
     justify-content: space-between;
-   
     height: 40px;
+    width:auto;
     padding: 10px 20px;
-    align-items: center;
+        align-items: center;
     background-color: rgb(44, 209, 146);
 }
-
+.header {
+    background-color: rgb(44, 209, 146);
+}
+.margen{
+    margin-left: auto;
+    margin-right: auto;
+}
 .menu {
     display: flex;
     gap:25px;
     list-style: none
-    
-    backgroud-color: pink
+    }
 
-}
 .menu li  {
-display: inline-block;
-text-align: center;
-    
-    }
-
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+}
 .menu li a {
-        display: block;
-        padding: 20px;
-        color: white;
-        text-decoration: none;
-    }
+    display: block;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+}
     .menu li a:hover {
 background: palevioletred;
     }
+
+ .titulo {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size:larger;
+    font-style: oblique;
+ }  
+
 .fotos {
  display: flex;
  flex-direction: row;
@@ -44,8 +61,24 @@ background: palevioletred;
  justify-content:space-between;   
  gap: 5px;
 
-}
+ @media screen ()
 
+}
+/* poema*/
+.viajar {
+    text-align: center;
+    text-decoration: double;
+    font-size: larger;
+ 
+}
+.poemacentral {
+    text-align: center;
+    background-color: rgb(15, 139, 102);
+    padding-top: 5px;
+    padding: 10px;
+    text-decoration: double;
+
+}
 
 
 
@@ -61,11 +94,7 @@ h1, h2{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.poema{
-    text-align: center;
-    font-family: cursive;
 
-}
 
 .nosotros {
     display: flex;
@@ -80,13 +109,9 @@ h1, h2{
     padding: 15px;
 
 }
-.navbar {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    }
 
-    .logo{
+
+ .logo{
         display: flex;
         justify-content: flex-start;
         flex-grow: 2;
@@ -111,11 +136,8 @@ background-image: url(../imagenes/ballena.JPG);
 background-size:cover;
 background-position: center;
 backdrop-filter:initial
-    
-    
-    
-}
-
+  ´} 
+ 
 .formulario {
     display: flex;
     flex-direction: column;
@@ -155,17 +177,7 @@ backdrop-filter:initial
 {    background: palevioletred;
         }
 
- .viajar {
-    font-family: cursive;
-    border-bottom: 5px solid;
-    border-top: 5px solid;
-    border-left: 5px solid;
-    border-style: groove;
-    display: inline;
-    padding: 10px;
-    text-decoration: none;
-    
- }
+ 
 
 
    .inst{
